@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#longterm{
+    background-image: url('../images/wave.png');
+    background-position:center;
+
+}
