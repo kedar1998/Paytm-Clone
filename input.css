@@ -13,7 +13,6 @@
     position:fixed;
     transition: all 0.3s;
     transform: rotate(0deg);
-    padding-right:10px;
 }
 
 .hamburger-top,
