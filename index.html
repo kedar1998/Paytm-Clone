@@ -34,12 +34,22 @@
 
             <!-- HAMBURGER -->
             <div class="lg:hidden">
-                <button class="hamburger open">
-                    Kedar
+                <button id="menu-btn" class="hamburger z-50">
+                    <div class="hamburger-top"></div>
+                    <div class="hamburger-bottom"></div>
                 </button>
             </div>
 
         </nav>
+
+        <!-- MENU MOBILE -->
+        <div id="menu" class="hidden z-40 flex flex-col items-center text-white font-bold text-xl py-36 space-y-10 inset-0 fixed bg-primary">
+                <a href="#">Paytm for Consumers</a>
+                <a href="#">Paytm for Business</a>
+                <a href="#">Company</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Career</a>
+        </div>
 
     </section>
 
@@ -725,5 +735,9 @@
         </div>
     </footer>
 
+
+
+
+    <script src="./js/script.js"></script>
 </body>
 </html>

@@ -5,5 +5,39 @@
 #longterm{
     background-image: url('../images/wave.png');
     background-position:center;
+}
 
+.hamburger{
+    height:24px;
+    width:30px;
+    position:fixed;
+    transition: all 0.3s;
+    transform: rotate(0deg);
+    padding-right:10px;
+}
+
+.hamburger-top,
+.hamburger-bottom{
+    background:#000;
+    height:5px;
+    width:30px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.hamburger-bottom{
+    transform: translateY(10px);
+}
+
+.open{
+    transform: rotate(90deg);
+}
+
+.open .hamburger-top{
+    transform: rotate(45deg);
+}
+
+.open .hamburger-bottom{
+    transform: rotate(-45deg);
 }
